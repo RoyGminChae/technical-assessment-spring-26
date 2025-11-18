@@ -9,7 +9,7 @@ By **Monday, December 1st, 2025 at 11:59pm**, you must fork this repository and 
 ## Your Task
 I feel like I've been a little bit too in my niche lately. A lot of the stuff I've been reading and learning about has been exclusively in fields I know a lot about. So I want to use this technical assessment as a chance for you to **teach me something new**.
 
-To do this, I am hosting the **Hack4Impact Idea Expo**! Your technical assessment will be a submission to this (fictional) event; with this framing, you will create a website that can be easily and intuitively navigated through as if it was a part of a stand in an expo. It should summarize whatever you want to teach me on an interactive, aesthetically interesting home page, but have more threads of information, pages, etc. as you see fit for those who want to learn in more detail. It will also include some interactive pieces.
+To do this, I am hosting **Hack4Impact IdeaCon**! Your technical assessment will be a submission to this (fictional) event; with this framing, you will create a website that can be easily and intuitively navigated through as if it was a part of a stand in a convention. It should summarize whatever you want to teach me on an interactive, aesthetically interesting home page, but have more threads of information, pages, etc. as you see fit for those who want to learn in more detail. It will also include some interactive pieces.
 
 In particular, your app should include the following features:
 - An interesting and beautiful frontend design with a catchy title and cool fonts and colors that looks good on any screen size.
