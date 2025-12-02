@@ -1,0 +1,75 @@
+.summaryBlockInfoContainer{
+    width: 100%;
+
+    /* 
+        match the height of the innerContainer, which 
+        has defined height
+    */
+    height: 100%; 
+
+    padding: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 0.75rem;
+}
+
+.summaryBlockInfoTitleContainer {
+    height: 15%;
+
+    background-color: var(--black1);
+    border-radius: 0.5rem;
+
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: var(--shadow-s);
+}
+
+
+.summaryBlockInfoTitle {
+    font-family: 'LowresPixel', sans-serif;
+    font-size: 2rem;
+    color: var(--text);
+}
+
+.summaryBlockInfoTextContainer {
+    flex: 1 1 50%;
+    
+    background-color: var(--black1);
+    padding: 0.75rem;
+
+    border-radius: 0.5rem;
+
+    box-shadow: var(--shadow-s);
+}
+
+.summaryBlockInfoText{
+    color: var(--text);
+}
+
+.summaryBlockVideoContainer {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    
+}
+
+.summaryBlockVideoInnerContainer {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    padding: 0.75rem;
+    box-shadow: var(--shadow-s);
+    border-radius: 0.5rem;
+    background-color: var(--black1);
+}
+
+.summaryBlockVideoInnerContainer iframe {
+    max-width: 100%;
+    border: 0;
+    display: block; /* make it block level elemenet instead of inline */
+}

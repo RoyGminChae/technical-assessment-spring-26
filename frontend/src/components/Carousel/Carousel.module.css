@@ -1,0 +1,18 @@
+.carousel {
+    overflow: hidden;
+    width: 100%; 
+    height: 100%; 
+    
+    border-radius: 0.75rem;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.slide { /* grow, shrink, basis=default width that overrides width */ 
+    min-width: 0; /* overrides default min width */
+    flex: 0 0 100%;
+    height: 100%;
+}

@@ -1,0 +1,141 @@
+.wallpaper {
+    width: 100%;
+    aspect-ratio: 16 / 7;
+    object-fit: cover;
+}
+
+.wallpaperContainer{
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+.headline {
+    position: absolute;    
+    font-family: 'LowresPixel', sans-serif;
+    color: var(--text);
+    font-size: 4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    white-space: nowrap; /*transform causes wrapping*/
+}
+
+.summaryBlockContainer {
+    background-color: var(--black3);
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 4rem;
+}
+
+.summaryBlockInfoContainer{
+    width: 100%;
+
+    /* 
+        match the height of the innerContainer, which 
+        has defined height
+    */
+    height: 100%; 
+
+    padding: 0.75rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    gap: 0.75rem;
+}
+
+.summaryBlockInfoTitleContainer {
+    height: 15%;
+
+    background-color: var(--black1);
+    border-radius: 0.5rem;
+
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: var(--shadow-s);
+}
+
+
+.summaryBlockInfoTitle {
+    font-family: 'LowresPixel', sans-serif;
+    font-size: 2rem;
+    color: var(--text);
+}
+
+.summaryBlockInfoTextContainer {
+    width: 100%;
+
+    flex: 1;
+    
+    background-color: var(--black1);
+    padding: 0.75rem;
+
+    border-radius: 0.5rem;
+
+    box-shadow: var(--shadow-s);
+}
+
+.summaryBlockInfoText{
+    color: var(--text);
+}
+
+.summaryBlockCarouselOuterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 0.75rem;
+    height: 100%;
+    width: 100%;
+
+    border-radius: 0.5rem;
+}   
+
+.summaryBlockCarouselInnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--black1);
+    padding: 0.75rem;
+    width: 100%; 
+
+    border-radius: 0.5rem;
+
+    box-shadow: var(--shadow-s);
+}   
+
+.imageContainer{
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16 / 9; 
+
+    position: relative; /* for text positioning (nearest ancestor)*/
+}
+
+.image {
+    width: 100%;
+    object-fit: cover; /* dimension need to be set for this to work */
+}
+
+.text {
+    position: absolute;
+    top: 2.5%;
+    left: 2.5%;
+    
+    color: var(--text);
+    font-size: 2rem;
+}

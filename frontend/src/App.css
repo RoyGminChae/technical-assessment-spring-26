@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'LowresPixel';
+  src: url('./assets/fonts/LowresPixel-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --text: oklch(0.96 0 0);
+  --text-muted: oklch(0.76 0 0);
+
+  --black1: oklch(0.3 0 0);
+  --black2: oklch(0.2 0 0);
+  --black3: oklch(0.1 0 0);
+
+  --site-padding: 3rem;
+
+  --shadow-s:
+  inset 0 1px 2px #ffffff30, /* top highlight */
+  0 1px 2px #00000030, /* dark shadow */
+  0 2px 4px #00000015; /* soft shadow */
+
+  --shadow-m:
+  inset 0 1px 2px #ffffff50, /* top highlight */
+  0 2px 4px #00000030, /* dark shadow */
+  0 4px 8px #00000015; /* soft shadow */
+
+  --shadow-l:
+  inset 0 1px 2px #ffffff70, /* top highlight */
+  0 4px 6px #00000030, /* dark shadow */
+  0 6px 10px #00000015; /* soft shadow */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: var(--black3);
+}
+
+.content-container {
+    max-width: 1280px;
+    margin-top: 5rem; /*space for fixed header*/
+    padding-bottom: 3rem; /* space for content from touching the side and bottom */
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}

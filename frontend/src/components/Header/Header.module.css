@@ -1,0 +1,46 @@
+.header { /*styles copied from Minecraft Homepage*/
+    font-family: 'LowresPixel', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+
+    background-color: rgba(38, 36, 35, 0.9);
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.25);
+    
+    backdrop-filter: blur(10px); /* background gets blurry */
+    -webkit-backdrop-filter: blur(10px); /* For Safari */
+
+    padding-left: var(--site-padding);
+    padding-right: var(--site-padding);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 100;
+}
+
+.logo {
+    height: 100%;
+}
+
+.nav {
+    display: flex;    
+    align-items: center;
+    gap: 2rem;
+}
+
+.navItem {
+    font-family: 'LowresPixel', sans-serif;
+    color: var(--text);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.userName{
+    color: var(--text);
+    font-size: 1.2rem;
+    font-family: 'LowresPixel', sans-serif;
+}

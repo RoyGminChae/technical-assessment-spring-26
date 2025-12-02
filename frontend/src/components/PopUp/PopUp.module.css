@@ -1,0 +1,40 @@
+.popUpContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.popUpContent {
+    background-color: var(--black2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 2rem;
+    transform: translate(-50%, -50%);
+
+    box-shadow: var(--shadow-s);
+    border-radius: 0.5rem;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title {
+    font-family: 'LowresPixel', sans-serif;
+    color: var(--text);
+}
+
+.form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.textContainer {
+    background-color: var(--black1);
+}

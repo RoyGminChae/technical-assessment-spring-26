@@ -1,0 +1,32 @@
+/* 
+    height grows to the tallest inner content 
+*/ 
+.summaryBlock {
+    background-color: var(--black2);
+    
+    margin-left: var(--site-padding);
+    margin-right: var(--site-padding);
+
+    border-radius: 0.5rem;
+    overflow: hidden; 
+
+    display: flex;
+    align-items: stretch; /* default behavior */
+    box-shadow: var(--shadow-s);
+}
+
+
+/*
+    innerContainer is a flexbox child of summaryBox,
+    since, height of both innerContainers will be whichever
+    left or right content is bigger
+    IMPORTANT using height: 100% will override this 
+*/
+.innerContainer { 
+    flex: 1 1 50%;
+    min-width: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
